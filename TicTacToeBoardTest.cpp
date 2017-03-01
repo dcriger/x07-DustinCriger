@@ -1,4 +1,4 @@
-/**
+/*
  * Unit Tests for TicTacToeBoard
 **/
 
@@ -17,4 +17,14 @@ class TicTacToeBoardTest : public ::testing::Test
 TEST(TicTacToeBoardTest, sanityCheck)
 {
 	ASSERT_TRUE(true);
+}
+
+TEST(TicTacToeBoardTest, blankBoard)
+{
+		
+}
+
+TEST(TicTacToeBoardTest, toggleTurn)
+{
+
 }
